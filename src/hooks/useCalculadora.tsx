@@ -41,8 +41,6 @@ export const useCalculadora = () => {
         if (numero === '0' && numeroAnterior === '0') return;
         const numero1 = Number ( numero )
         const numero2 = Number ( numeroAnterior)
-        console.log(numero1)
-        console.log(numero2)
 
         switch ( ultimaOperacion.current ) {
             case Operadores.sumar:
